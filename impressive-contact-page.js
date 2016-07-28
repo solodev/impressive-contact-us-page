@@ -1,3 +1,12 @@
+$('#select-beast').selectize({
+					create: true,
+					sortField: {
+						field: 'text',
+						direction: 'asc'
+					},
+					dropdownParent: 'body'
+});
+
 function initialize() {
 	  var mapOptions = {
 	  zoom: 7,
