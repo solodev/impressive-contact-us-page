@@ -1,10 +1,10 @@
 $('#select-beast').selectize({
-					create: true,
-					sortField: {
-						field: 'text',
-						direction: 'asc'
-					},
-					dropdownParent: 'body'
+	create: true,
+	sortField: {
+	field: 'text',
+	direction: 'asc'
+	},
+	dropdownParent: 'body'
 });
 
 function initialize() {
