@@ -25,6 +25,7 @@ The form includes basic HTML markup for the form and contact details:
                <p style="color: #000000">Contact us today to discuss how Big Data can help your company!</p>
             </div>
          </div>
+		 <form name="contactForm" id="contactForm" method="POST" action="">
          <div class="row">
             <div class="col-md-12">
                <div class="control-group">
@@ -65,6 +66,7 @@ The form includes basic HTML markup for the form and contact details:
                <input type="submit" class="btn btn-primary" value="Contact Us">
             </div>
          </div>
+		 </form>
       </div>
       <div class="col-md-5 contact-right-info">
          <h3>ORLANDO OFFICE</h3>
